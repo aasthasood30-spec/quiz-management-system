@@ -13,7 +13,7 @@ public class Quizapp {
         char ans;
         int correct = 0, wrong = 0;
 
-        // Question 1
+    
         questions.question1();
         System.out.print("\nPick an option: ");
         ans = input.next().charAt(0);
@@ -33,7 +33,7 @@ public class Quizapp {
         System.out.println();
 
 
-        // Question 2
+   
         questions.question2();
         System.out.print("\nPick an option: ");
         ans = input.next().charAt(0);
@@ -53,7 +53,6 @@ public class Quizapp {
         System.out.println();
 
 
-        // Question 3
         questions.question3();
         System.out.print("\nPick an option: ");
         ans = input.next().charAt(0);
@@ -73,7 +72,7 @@ public class Quizapp {
         System.out.println();
 
 
-        // Question 4
+      
         questions.question4();
         System.out.print("\nPick an option: ");
         ans = input.next().charAt(0);
@@ -93,7 +92,7 @@ public class Quizapp {
         System.out.println();
 
 
-        // Question 5
+     
         questions.question5();
         System.out.print("\nPick an option: ");
         ans = input.next().charAt(0);
@@ -113,7 +112,7 @@ public class Quizapp {
         System.out.println();
 
 
-        // Question 6
+       
         questions.question6();
         System.out.print("\nPick an option: ");
         ans = input.next().charAt(0);
@@ -133,7 +132,6 @@ public class Quizapp {
         System.out.println();
 
 
-        // Question 7
         questions.question7();
         System.out.print("\nPick an option: ");
         ans = input.next().charAt(0);
@@ -153,7 +151,6 @@ public class Quizapp {
         System.out.println();
 
 
-        // Question 8
         questions.question8();
         System.out.print("\nPick an option: ");
         ans = input.next().charAt(0);
@@ -173,7 +170,7 @@ public class Quizapp {
         System.out.println();
 
 
-        // Question 9
+       
         questions.question9();
         System.out.print("\nPick an option: ");
         ans = input.next().charAt(0);
@@ -193,7 +190,6 @@ public class Quizapp {
         System.out.println();
 
 
-        // Question 10
         questions.question10();
         System.out.print("\nPick an option: ");
         ans = input.next().charAt(0);
@@ -213,7 +209,7 @@ public class Quizapp {
         System.out.println();
 
 
-        // Calculate percentage
+        
         double percentage = ((double) correct / 10) * 100;
 
         System.out.println("========== RESULT ==========");
@@ -330,7 +326,7 @@ class questions_answers {
     }
 
 
-    // Answer Key
+    
     char answer1 = 'a';
     char answer2 = 'b';
     char answer3 = 'c';
