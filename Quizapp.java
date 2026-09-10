@@ -26,7 +26,7 @@ public class Quizapp {
 
         if (ans == answers.answer1) {
             correct++;
-        } else {
+        } else { 
             wrong++;
         }
 
@@ -229,21 +229,22 @@ class questions_answers {
 
     void question1() {
         System.out.println(
-            "Q1 What is the orange part of an egg called?\n" +
-            "A) Yolk\n" +
-            "B) Shell\n" +
-            "C) Albumen\n" +
-            "D) Chalaza"
+            
+            "Q1 What is the capital of Australia?\n" +
+            "A) Sydney\n" +
+            "B) Melbourne\n" +
+            "C) Canberra\n" +
+            "D) Brisbane"
         );
     }
 
     void question2() {
         System.out.println(
-            "Q2 How many legs do insects have?\n" +
-            "A) Four\n" +
-            "B) Six\n" +
-            "C) Eight\n" +
-            "D) Ten"
+            "Q2 Which is the largest planet in our Solar System?\n" +
+            "A) Earth\n" +
+            "B) Saturn\n" +
+            "C) Jupiter\n" +
+            "D) Uranus"
         );
     }
 
@@ -289,11 +290,11 @@ class questions_answers {
 
     void question7() {
         System.out.println(
-            "Q7 How many players are in a soccer team?\n" +
-            "A) Nine\n" +
-            "B) Eleven\n" +
-            "C) Ten\n" +
-            "D) Twelve"
+            "Q7 Which is the fastest animal on land?\n" +
+            "A) Lion\n" +
+            "B) Cheetah\n" +
+            "C) Horse\n" +
+            "D) Zebra"
         );
     }
 
@@ -309,32 +310,33 @@ class questions_answers {
 
     void question9() {
         System.out.println(
-            "Q9 Which is faster, light or sound?\n" +
-            "A) Light\n" +
-            "B) Sound"
+            "Q9 Who was the fisrt person to walk on the Moon?\n" +
+            "A) Neil Armstrong\n" +
+            "B) Buzz Aldrin" 
+            
         );
     }
 
     void question10() {
         System.out.println(
-            "Q10 How many letters are in the English alphabet?\n" +
-            "A) Twenty-four\n" +
-            "B) Twenty-five\n" +
-            "C) Twenty-six\n" +
-            "D) Twenty-seven"
+            "Q10 Which is the largest desert in the world?\n" +
+            "A) Sahara\n" +
+            "B) Gobi\n" +
+            "C) Arabian\n" +
+            "D) Kalahari"
         );
     }
 
 
     
     char answer1 = 'a';
-    char answer2 = 'b';
+    char answer2 = 'b'; 
     char answer3 = 'c';
     char answer4 = 'c';
     char answer5 = 'c';
     char answer6 = 'a';
-    char answer7 = 'b';
+    char answer7 = 'b'; 
     char answer8 = 'b';
-    char answer9 = 'a';
-    char answer10 = 'c';
+    char answer9 = 'c'; 
+    char answer10 = 'c'; 
 }
